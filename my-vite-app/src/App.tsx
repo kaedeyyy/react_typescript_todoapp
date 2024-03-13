@@ -23,6 +23,7 @@ function App() {
       ...prevTodos,
       { id: 1, name: name, completed: false }
     ]);
+    
 
      todoNameRef.current.value = '';
   };
